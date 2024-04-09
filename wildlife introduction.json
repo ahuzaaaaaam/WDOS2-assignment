@@ -1,0 +1,27 @@
+[
+    {
+        "introtitle" : "Wildlife Introduction",
+        "introparagraph" : "Wildlife is a precious gift of God to this planet. The term 'wildlife' not only caters to wild animals but also takes into account all undomesticated lifeforms including birds, insects, plants, fungi and even microscopic organisms."
+    },
+    {
+        "sub1title" : "Sinharaja Forest Reserve",
+        "sub1paragraph" : "A UNESCO-listed World Heritage Site and Biosphere Reserve, Sinharaja Forest Reserve is the last viable area of primary tropical rainforest in Sri Lanka featuring tumbling waterfalls, bubbling pools and emerald ferns. Situated in the south west of the island, the forest's canopy towers up to 45m and astonishingly over two-thirds of the trees are endemic, many of them even considered rare.",
+        "sub1paragraph2" : "However, one of the main reasons to visit Sinharaja is for the excellent birdwatching. The reserve supports over 80% of the island’s bird species as well as being a habitat for endemic birds such as the green-billed coucal, the blue magpie and the red-faced malkoha. Butterflies, insects, amphibians and reptiles also live in this rich biodiverse reserve as well as mammals such as the rare leopard, purple-faced langur, rusty spotted cat and three types of squirrel."
+    },
+    {
+        "sub2title" : "Udawalawe National Park",
+        "sub2paragraph" : "Just south of Sri Lanka's central mountains, is a large reserve made up of 119 square miles of grassland, scrub jungle and riverine forest. The main attraction of the park is the large concentration of Asian elephants found here, Udawalawe is home to over 400 of these gentle giants and it is almost guaranteed to see them whilst on safari. A favourite hangout for the herds of elephants is the Walawe Reservoir where the creatures come to drink during times of water scarcity.",
+        "sub2paragraph2" : "Udawalawe National Park is also home to some other exciting wildlife including the mugger crocodile, sambar, spotted and barking deer, wild boar, water buffalo and jackal whilst the birding is excellent with nearly 200 species recorded. November to March is the optimal time for birdwatching expeditions with the chance to spot exciting raptors such as the changeable hawk-eagle, serpent eagle and grey-headed fish eagle."
+    },
+    {
+        "ttitle" : "Wildlife of Asia",
+        "thead1" : "Animal Name",
+        "thead2" : "Interesting Facts",
+        "thead3" : "Image",
+        "tdata1" : "SriLankan Leopard",
+        "tdata2" : "Known as the 'Lord of the Jungle', the Sri Lankan Leopard (Panthera parades kotiya) is one of the eight recognized subspecies of Leopard and is indigenous to Sri Lanka. ", 
+        "tdata3" : "SriLankan Elephant", 
+        "tdata4" : "SriLankan Junglefowl",
+        "tdata5" : "the national animal of srilanka. Chickens are classed as red junglefowl, although the term refers to the wild subspecies."
+    }
+]

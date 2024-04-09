@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head> <!--main area-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wild life in SriLanka</title>
+        <link rel="stylesheet" href="wildlife introduction.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <section class="header">
+                <div class="swiper">
+                    <div class="slider">
+                        <div class="slide"><img src="images/Leopard-srilanka-Getty.jpg"></div>
+                    </div>
+                    <div class="overlay">
+                        <nav id="navig">
+                            <a href="home.html"><img src="images/logo.jpeg"></a>
+                            <div class="nav" id="nav">
+                                <i class="bx bx-x" onclick="hide()"></i>
+                                <ul id="menu">
+                                    <li><a href="home.html">HOME</a></li>
+                                    <li><a href="wildlife introduction.html">WILD LIFE INTRODUCTION</a></li>
+                                    <li><a href="leopard.html">SRILANKAN LEOPARD</a></li>
+                                    <li><a href="dwc.html">DWC</a></li>
+                                    <li><a href="animal.html">ANIMALS</a></li>
+                                    <li id="logins"><a href="login.html"><button class="button2 color">Login</button></a></li>
+                                    <li id="logouts"><a href="#"><button class="button2 color">Logout</button></a></li>
+                                </ul>
+                            </div>
+                            <i class="bx bx-menu" onclick="show()"></i>
+                        </nav>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <main>
+            <section class="introduction">  <!--Introduction-->
+                <h1 id="introtitle"></h1>
+                <p id="introparagraph">
+                    
+                </p>
+            </section>
+            <section>
+                <div class="sub-sections"> <!--3 sub section-->
+                    <h2 id="sub1title"></h2>
+                    <div class="row">
+                        <div class="col">
+                            <img src="images/sin1.jpg">
+                        </div>
+                        <div class="col">
+                            <img src="images/sin2.jpg">
+                        </div>
+                        <div class="col">
+                            <img src="images/sin3.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="content"> <!--3 sub section-->
+                    <div class="rows-two">
+                        <div class="content-col">
+                            <p id="sub1paragraph">
+
+                            </p>
+                            <p id="sub1paragraph2">
+
+                            </p>
+                        </div>
+                        <div class="content-col">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31719.23036790447!2d80.46466145268131!3d6.406393730929144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3e76bd109d45f%3A0x8c0ef1010649701b!2sSinharaja%20Forest%20Reserve!5e0!3m2!1sen!2slk!4v1705668455758!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="sub-sections"> <!--3 sub section-->
+                    <h2 class="up" id="sub2title"></h2>
+                    <div class="row">
+                        <div class="col">
+                            <img src="images/ud1.webp">
+                        </div>
+                        <div class="col">
+                            <img src="images/ud2.jpg">
+                        </div>
+                        <div class="col">
+                            <img src="images/ud3.webp">
+                        </div>
+                    </div>
+                </div>
+                <div class="content"> <!--3 sub section-->
+                    <div class="rows-two">
+                        <div class="content-col">
+                            <p id="sub2paragraph">
+
+                            </p>
+                            <p id="sub2paragraph2">
+
+                            </p>
+                        </div>
+                        <div class="content-col">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.370803868233!2d80.87374407475278!3d6.474628793517157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae408ff88887e79%3A0xaf12e79ffbd980d7!2sUdawalawe%20National%20Park!5e0!3m2!1sen!2slk!4v1705668617426!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <table width="600" border="1"> <!-- table -->
+                    <caption><h2 id="ttitle"></h2></caption>
+                    <thead>
+                        <tr>
+                            <th id="thead1"></th>
+                            <th id="thead2"></th>
+                            <th id="thead3"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-="Animal Name" id="tdata1"></td>
+                            <td data-="Interesting Facts" id="tdata2"></td>
+                            <td class="one"><img src="images/Leopard-srilanka-Getty.jpg" class="timg" data-="Image"></td>
+                        </tr>
+                        <tr>
+                            <td data-="Animal Name" id="tdata3"></td>
+                            <td data-="Interesting Facts">SriLankan Elephants display remarkable empathy and mourn their companions' loss, <br>
+                                revealing a profound emotional depth within their social groups.</td>
+                            <td><img src="images/move3.jpg" class="timg" data-="Image"></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td data-="Animal Name" id="tdata4"></td>
+                            <td data-="Interesting Facts" id="tdata5"></td>
+                            <td><img src="images/chicken.webp" class="timg" data-="Image"></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+        </main>
+        <hr>
+        <footer>
+            <div class="footer">
+                <div class="icon">
+                    <ul class="foot">
+                        <button class="button2 color" id="editButton">Edit Content</button>
+                        <li id="newsdash"><a href="newsdash.html"><button class="button2 color">View all subscriptions</button></a></li>
+                    </ul>
+                    <h2 id="subtitle">Subscribe to our Newsletter</h2>
+                    <form action=""  id="news">
+                        <input type="email" name="" id="email" placeholder="Enter your email">
+                        <button type="submit" class="button2 color" id="sub">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="bot">
+                <p>
+                    Copyright &#169; 2023; Designed By <span class="foot-name">CB013034</span>
+                </p>
+            </div>
+            <div class="form">
+                <div id="editModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeEditor()">&times;</span>
+                        <h2 class="font" id="intro">Edit Content</h2>
+                        <h3 class="font">Title</h3>
+                        <input type="text" id="editedTitle" placeholder="Enter Title" class="font">
+                        <h3 class="font">Introduction</h3>
+                        <textarea rows="8" id="editedintroduction" placeholder="Enter Paragraph" class="font"></textarea>
+                        <h3 class="font">Sub-Title 1</h3>
+                        <input type="text" id="editedsub1" placeholder="Enter Title" class="font">
+                        <h3 class="font">Sub-Para 1</h3>
+                        <textarea rows="8" id="editedParagraph1" placeholder="Enter Paragraph" class="font"></textarea>
+                        <h3 class="font">Sub-Para 2</h3>
+                        <textarea rows="8" id="editedParagraph2" placeholder="Enter Paragraph" class="font"></textarea>
+                        <h3 class="font">Sub2-Title 1</h3>
+                        <input type="text" id="edited2sub1" placeholder="Enter Title" class="font">
+                        <h3 class="font">Sub2-Para 1</h3>
+                        <textarea rows="8" id="edited2Paragraph1" placeholder="Enter Paragraph" class="font"></textarea>
+                        <h3 class="font">Sub2-Para 2</h3>
+                        <textarea rows="8" id="edited2Paragraph2" placeholder="Enter Paragraph" class="font"></textarea>
+                        <button class="button" onclick="saveChanges()">Save Changes</button>
+                        <button class="button" onclick="def()">Default</button>
+                    </div>
+                </div>
+            <!-- References
+            pettitts, n.d. THE FINEST PLACES TO SEE WILDLIFE IN SRI LANKA. [Online] 
+            Available at: https://www.pettitts.co.uk/blog/sri-lanka-wildlife
+            Chandrakar, A. K., n.d. ResearchGate. [Online] 
+            Available at: https://www.researchgate.net/publication/327717103_Wildlife_An_Introduction -->
+        </footer>
+    <script>
+
+        var navig = document.getElementById("navig");
+        var menu = document.getElementById("menu");
+
+        window.onscroll=function(){
+            if(window.pageYOffset >= menu.offsetTop){
+                navig.classList.add("sticky")
+            }
+            else{
+                navig.classList.remove("sticky")
+            }
+        }
+
+    </script>
+    <script>
+
+        var nav = document.getElementById("nav");
+
+        function show(){
+            nav.style.right = "0"
+        }
+
+        function hide(){
+            nav.style.right = "-350px"
+        }
+
+    </script>
+    <script src="wildlife introduction.js"></script>
+    </body>
+</html>

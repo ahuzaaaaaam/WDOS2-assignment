@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head> <!--main area-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wild life in SriLanka</title>
+        <link rel="stylesheet" href="home.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    </head>
+    <body onload="slider()">
+        <header>
+            <section class="header">
+                <div class="swiper">
+                    <div class="slider">
+                        <div class="slide"><img src="images/Leopard-srilanka-Getty.jpg"  id="slideImg"></div>
+                    </div>
+                    <div class="overlay">
+                        <nav id="navig">
+                            <a href="home.html"><img src="images/logo.jpeg"></a>
+                            <div class="nav" id="nav">
+                                <i class="bx bx-x" onclick="hide()"></i>
+                                <ul id="menu">
+                                    <li><a href="home.html">HOME</a></li>
+                                    <li><a href="wildlife introduction.html">WILD LIFE INTRODUCTION</a></li>
+                                    <li><a href="leopard.html">SRILANKAN LEOPARD</a></li>
+                                    <li><a href="dwc.html">DWC</a></li>
+                                    <li><a href="animal.html">ANIMALS</a></li>
+                                    <li id="logins"><a href="login.html"><button class="button2 color">Login</button></a></li>
+                                    <li id="logouts"><a href="#"><button class="button2 color">Logout</button></a></li>
+                                </ul>
+                            </div>
+                            <i class="bx bx-menu" onclick="show()"></i>
+                        </nav>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <main>
+            <section class="introduction">  <!--Introduction-->
+                <h1 id="introtitle"></h1>
+                <p id="introparagraph">
+
+                </p>
+            </section>
+            <section class="sub-sections" id="twosubs"> <!--2 sub section-->
+                <div class="row">
+                    <div class="col">
+                        <img src="images/biodiversity.avif">
+                        <h2 id="sub1title"></h2>
+                        <p id="sub1paragraph">
+                            
+                        </p>
+                        <p>
+                            <ul class="list">
+                                <li>4000 species of flowering plants</li>
+                                <li>107 species of freshwater fish</li>
+                                <li>59 species of amphibians</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="col">
+                        <img src="images/conservatin.jpg">
+                        <h2 id="sub2title"></h2>
+                        <p id="sub2paragraph">
+                            
+                        </p>
+                        <p>
+                            <ol class="list">
+                                <li>tree planting,</li>
+                                <li>recycling</li>
+                                <li>wildlife habitat creation</li>
+                            </ol>
+                        </p>
+                    </div>
+                    <div class="col">
+                        <img src="images/safari.webp">
+                        <h2 id="sub3title"></h2>
+                        <p id="sub3paragraph">
+                            
+                        </p>
+                        <p>
+                            <ul class="list">
+                                <li>Udawalawe National Park</li>
+                                <li>Wasgamuwa National Park</li>
+                                <li>Minneriya National Park</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <hr>
+        <footer>
+            <div class="footer">
+                <div class="icon">
+                    <ul class="foot">
+                        <button class="button2 color" id="editButton">Edit Content</button>
+                        <li id="newsdash"><a href="newsdash.html"><button class="button2 color">View all subscriptions</button></a></li>
+                    </ul>
+                    <h2 id="subtitle">Subscribe to our Newsletter</h2>
+                    <form action=""  id="news">
+                        <input type="email" name="" id="email" placeholder="Enter your email">
+                        <button type="submit" class="button2 color" id="sub">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="bot">
+                <p>
+                    Copyright &#169; 2023; Designed By <span class="foot-name">CB013034</span>
+                </p>
+            </div>
+            <div class="form">
+                <div id="editModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeEditor()">&times;</span>
+                        <h2 class="font" id="intro">Edit Content</h2>
+                        <h3 class="font">Title</h3>
+                        <input type="text" id="editedTitle" placeholder="Enter Title" class="font">
+                        <h3 class="font">Introduction</h3>
+                        <textarea rows="8" id="editedintroduction" placeholder="Enter Paragraph" class="font"></textarea>
+                        <h3 class="font">Sub-Title 1</h3>
+                        <input type="text" id="editedsub1" placeholder="Enter Title" class="font">
+                        <h3 class="font">Sub-Para 1</h3>
+                        <textarea rows="8" id="editedParagraph1" placeholder="Enter Paragraph" class="font"></textarea>
+                        <h3 class="font">Sub-Title 2</h3>
+                        <input type="text" id="editedsub2" placeholder="Enter Title" class="font">
+                        <h3 class="font">Sub-Para 2</h3>
+                        <textarea rows="8" id="editedParagraph2" placeholder="Enter Paragraph" class="font"></textarea>
+                        <h3 class="font">Sub-Title 3</h3>
+                        <input type="text" id="editedsub3" placeholder="Enter Title" class="font">
+                        <h3 class="font">Sub-Para 3</h3>
+                        <textarea rows="8" id="editedParagraph3" placeholder="Enter Paragraph" class="font"></textarea>
+                        <button class="button" onclick="saveChanges()">Save Changes</button>
+                        <button class="button" onclick="def()">Default</button>
+                    </div>
+                </div>
+            </div>
+            <!-- References
+            intrepid, n.d. Sri Lanka Safari. [Online] 
+            Available at: https://www.intrepidtravel.com/ca/sri-lanka/sri-lanka-safari-153853
+            NATIONAL GEOGRAPHIC, n.d. Wildlife Conservation. [Online] 
+            Available at: https://education.nationalgeographic.org/resource/wildlife-conservation/
+            reddot, n.d. Wildlife In Sri Lanka. [Online] 
+            Available at: https://www.reddottours.com/sri-lanka-activities/wildlife-in-sri-lanka#:~:text=Sri%20Lanka's%20wildlife%20is%20as,including%20the%20mighty%20blue%20whale.
+            [Accessed 19 1 2024].
+            Sri Lanka Biodiversity, n.d. Ecosystems. [Online] 
+            Available at: https://lk.chm-cbd.net/ecosystems/forest-and-related-ecosystems
+            Jayawardene, J., n.d. amazinglanka. [Online] 
+            Available at: https://amazinglanka.com/wp/sri-lankas-biodiversity/ -->
+        </footer>
+    <script>
+
+        var navig = document.getElementById("navig");
+        var menu = document.getElementById("menu");
+
+        window.onscroll=function(){
+            if(window.pageYOffset >= menu.offsetTop){
+                navig.classList.add("sticky")
+            }
+            else{
+                navig.classList.remove("sticky")
+            }
+        }
+
+    </script>
+    <script>
+
+        var nav = document.getElementById("nav");
+
+        function show(){
+            nav.style.right = "0"
+        }
+
+        function hide(){
+            nav.style.right = "-350px"
+        }
+
+    </script>
+    <script>
+        var slideImg = document.getElementById("slideImg");
+        var images = new Array(
+            "images/Leopard-srilanka-Getty.jpg",
+            "images/move1.jpg",
+            "images/move2.jpg",
+            "images/move3.jpg"
+        );
+        var len = images.length
+        var i = 0;
+        function slider(){
+            if(i > len-1){
+                i=0;
+            }
+            slideImg.src = images[i];
+            i++;
+            setTimeout("slider()",3000);
+        }
+    </script>
+    <script src="home.js"></script>
+    </body>
+</html>

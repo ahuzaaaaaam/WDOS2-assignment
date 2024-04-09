@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head> <!--main area-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wild life in SriLanka</title>
+        <link rel="stylesheet" href="dwc.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <section class="header">
+                <div class="swiper">
+                    <div class="slider">
+                        <div class="slide"><img src="images/Leopard-srilanka-Getty.jpg"></div>
+                    </div>
+                    <div class="overlay">
+                        <nav id="navig">
+                            <a href="home.html"><img src="images/logo.jpeg"></a>
+                            <div class="nav" id="nav">
+                                <i class="bx bx-x" onclick="hide()"></i>
+                                <ul id="menu">
+                                    <li><a href="home.html">HOME</a></li>
+                                    <li><a href="wildlife introduction.html">WILD LIFE INTRODUCTION</a></li>
+                                    <li><a href="leopard.html">SRILANKAN LEOPARD</a></li>
+                                    <li><a href="dwc.html">DWC</a></li>
+                                    <li><a href="animal.html">ANIMALS</a></li>
+                                    <li id="logins"><a href="login.html"><button class="button2 color">Login</button></a></li>
+                                    <li id="logouts"><a href="#"><button class="button2 color">Logout</button></a></li>
+                                </ul>
+                            </div>
+                            <i class="bx bx-menu" onclick="show()"></i>
+                        </nav>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <main>
+            <section class="introduction">  <!--Introduction-->
+                <h1 id="introtitle"></h1>
+            </section>
+            <section class="content" id="hieght"> <!--3 sub section-->
+                <div class="row">
+                    <div class="content-col">
+                        <p id="sub1paragraph">
+                            
+                        </p>
+                        <p id="sub1paragraph2">
+                             
+                        </p>
+                    </div>
+                    <div class="content-col">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15843.782988928731!2d79.9198057!3d6.8970927!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae250aa85489b1f%3A0xd8773339b6b43dbb!2sDepartment%20of%20Wildlife%20Conservation!5e0!3m2!1sen!2slk!4v1705672070126!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2>Protected Areas</h2>
+                <div class="image-gallery"> <!--3 sub section-->
+                    <div class="container">
+                        <div class="gallery">
+                            <img src="images/pud.jpg">
+                            <div class="layer">
+                                <h3>UDAWALWE NATIONAL PARK</h3>
+                            </div>
+                        </div>
+                        <div class="gallery">
+                            <img src="images/pwi.JPG">
+                            <div class="layer">
+                                <h3>WILPATTU NATIONAL PARK</h3>
+                            </div>
+                        </div>
+                        <div class="gallery">
+                            <img src="images/pmin.jpg">
+                            <div class="layer">
+                                <h3>MINNERIYA NATIONAL PARK</h3>
+                            </div>
+                        </div>
+                        <div class="gallery">
+                            <img src="images/pwa.jpg">
+                            <div class="layer">
+                                <h3>WASGAMUWA NATIONAL PARK</h3>
+                            </div>
+                        </div>
+                        <div class="gallery">
+                            <img src="images/pho.jpg">
+                            <div class="layer">
+                                <h3>HORTONS PLAINS NATIONAL PARK</h3>
+                            </div>
+                        </div>
+                        <div class="gallery">
+                            <img src="images/ppie.jpg">
+                            <div class="layer">
+                                <h3>PIEGON ISLAND NATIONAL PARK</h3>
+                            </div>
+                        </div>
+                        <div class="gallery">
+                            <img src="images/pkad.jpg">
+                            <div class="layer">
+                                <h3>KADULLA NATIONAL PARK</h3>
+                            </div>
+                        </div>
+                        <div class="gallery">
+                            <img src="images/plum.jpg">
+                            <div class="layer">
+                                <h3>YALA NATIONAL PARK</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popup">
+                        <span>&times;</span>
+                        <img src="images/turtle en.avif">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <hr>
+        <footer>
+            <div class="footer">
+                <div class="icon">
+                    <ul class="foot">
+                        <button class="button2 color" id="editButton">Edit Content</button>
+                        <li id="newsdash"><a href="newsdash.html"><button class="button2 color">View all subscriptions</button></a></li>
+                    </ul>
+                    <h2 id="subtitle">Subscribe to our Newsletter</h2>
+                    <form action=""  id="news">
+                        <input type="email" name="" id="email" placeholder="Enter your email">
+                        <button type="submit" class="button2 color" id="sub">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="bot">
+                <p>
+                    Copyright &#169; 2023; Designed By <span class="foot-name">CB013034</span>
+                </p>
+            </div>
+            <div class="form">
+                <div id="editModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeEditor()">&times;</span>
+                        <h2 class="font" id="intro">Edit Content</h2>
+                        <h3 class="font">Title</h3>
+                        <input type="text" id="editedTitle" placeholder="Enter Title" class="font">
+                        <h3 class="font">Sub-Para 1</h3>
+                        <textarea rows="8" id="editedParagraph1" placeholder="Enter Paragraph" class="font"></textarea>
+                        <h3 class="font">Sub-Para 2</h3>
+                        <textarea rows="8" id="editedParagraph2" placeholder="Enter Paragraph" class="font"></textarea>
+                        <button class="button" onclick="saveChanges()">Save Changes</button>
+                        <button class="button" onclick="def()">Default</button>
+                    </div>
+                </div>
+            <!-- References
+            MINISTRY OF WILDLIFE AND FOREST RESOURCES CONSERVATION, n.d. department of wildlife conservation. [Online] 
+            Available at: https://www.mwfc.gov.lk/department-of-wildlife-conservation/ -->
+        </footer>
+    <script>
+        document.querySelectorAll(".layer").forEach(layerItem => {
+            layerItem.onclick = () => {
+                const index = Array.from(layerItem.parentNode.parentNode.children).indexOf(layerItem.parentNode);
+            
+                const image = document.querySelectorAll(".container img")[index];
+
+                document.querySelector(".popup").style.display = "block";
+                document.querySelector(".popup img").src = image.getAttribute("src");
+            };
+        });
+
+        document.querySelector(".popup span").onclick = () => {
+        document.querySelector(".popup").style.display = "none";
+        }
+    </script>
+
+    <script>
+
+        var navig = document.getElementById("navig");
+        var menu = document.getElementById("menu");
+
+        window.onscroll=function(){
+            if(window.pageYOffset >= menu.offsetTop){
+                navig.classList.add("sticky")
+            }
+            else{
+                navig.classList.remove("sticky")
+            }
+        }
+
+    </script>
+    <script>
+
+        var nav = document.getElementById("nav");
+
+        function show(){
+            nav.style.right = "0"
+        }
+
+        function hide(){
+            nav.style.right = "-350px"
+        }
+
+    </script>
+    <script src="dwc.js"></script>
+    </body>
+</html>
